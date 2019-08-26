@@ -437,7 +437,7 @@ In this tutorial, the dormant database can be resumed by creating original Mongo
 The below command will resume the DormantDatabase `mgo-quickstart`.
 
 ```console
-$ kubedb create -f https://github.com/kubedb/docs/raw/v0.13.0-rc.0/docs/examples/mongodb/quickstart/demo-1.yaml
+$ kubedb create -f https://raw.githubusercontent.com/kubedb/docs/master/docs/examples/mongodb/quickstart/demo-1.yaml
 mongodb.kubedb.com/mgo-quickstart created
 ```
 
